@@ -1,0 +1,137 @@
+.carousalPro {
+  display: flex;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  justify-content: space-around;
+  background-color: var(--car_pro_bg);
+  margin-bottom: 1%;
+}
+.carousalPro img {
+  padding-top: 5%;
+  width: 50%;
+}
+.carousalPro h5 {
+  padding-top: 4%;
+}
+.carousalPro a {
+  text-decoration: none;
+}
+.carousalPro div:hover {
+  border: 1px solid rgb(69, 151, 218);
+  width: 30%;
+  border-radius: 9px;
+  padding-bottom: 1%;
+  background-color: var(--car_pro_hover);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.services {
+  width: 98%;
+  background-color: var(--ser_bg);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.services p {
+  font-size: 12px;
+}
+.services img {
+  border-radius: 5px;
+}
+.services div {
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: var(--ser_hover);
+  color: black;
+  padding-top: 1%;
+}
+.Pictures2 {
+  width: 98%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: var(--pic2);
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.Pictures2 div {
+  text-align: center;
+  width: 80%;
+}
+.Pictures2 img {
+  width: 90%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Pictures2 img:hover {
+  border: 1px solid black;
+  width: 93%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.reviews {
+  width: 99%;
+  margin: auto;
+  margin-top: 0.4%;
+  border-radius: 7px;
+  background-color: var(--rev);
+  color: black;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: rgba(223, 214, 214, 0.15) 0px 5px 15px 0px;
+  color: var(--rev_text);
+}
+.ContentREV {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.ContentREV img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.ContentREV p {
+  font-size: 1vw;
+}
+@media screen and (max-width: 850px) {
+  .Pictures2 {
+    flex-direction: column;
+    place-items: center;
+  }
+  .Pictures2 div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .carousalPro {
+    flex-direction: column;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .services {
+    flex-direction: column;
+    place-items: center;
+  }
+  .services div {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 60%;
+  }
+}
